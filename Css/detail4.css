@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'IBM Plex Mono', monospace;
+    background: linear-gradient(to bottom, #ffffff, #4b89fd);
+}
+
+.container-fluid {
+    color:white;
+    background: linear-gradient(to right, #3d91ff, #7e1cff);
+    margin: 50px 30px;
+    padding: 50px;
+    border-radius: 5px;
+}
+
+.container {
+    margin: 30px 0px;
+    padding: 50px;
+}
+
+.image-youtube {
+    border-radius: 5px;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.5);
+    width: 80%;
+}
+
+.image-tiktok {
+    border-radius: 5px;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.5);
+    width: 30%;
+    margin-top: 50px;
+}
+
+
+
+.container-footer {
+    margin: 30px 0px;
+    padding: 50px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.button {
+    background-color: #252525;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #4b89fd;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .container-fluid {
+        padding: 50px;
+        width: 30%;
+        overflow: hidden;
+        text-align: left;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    .image-flutter {
+        width: 100%;
+    }
+
+    .image-net {
+        width: 100%;
+    }
+
+    .container-footer {
+        padding: 20px;
+    }
+}
